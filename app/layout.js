@@ -2,6 +2,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import AuthProvider from "../components/AuthProvider"
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} antialiased`}
         style={{
-          backgroundColor: "#fdd1d1",
+          backgroundColor: "#fff",
           color: "black",
           fontFamily: "var(--font-geist-sans)",
           
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           <main>
             {children}
             </main>
+            <Footer/>
             </AuthProvider>
       </body>
     </html>
