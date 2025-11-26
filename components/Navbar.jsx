@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
-import { useAuth } from "../components/AuthProvider"; // adjust path as needed
+import { useAuth } from "../components/AuthProvider";
 import { useRouter } from "next/navigation";
 
 export default function Navbar() {
@@ -15,7 +15,7 @@ export default function Navbar() {
 
   const userLoggedIn = !!user;
 
-  // Close dropdown if click outside
+  
   useEffect(() => {
     function handleClickOutside(event) {
       if (
@@ -29,12 +29,12 @@ export default function Navbar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Handle logout and redirect
-  const handleLogout = async () => {
-    await logout();
+       const handleLogout = async () => {
+     
+        await logout();
     setDropdownOpen(false);
     setMenuOpen(false);
-    router.push("/");  // redirect to home after logout
+    router.push("/");  
   };
 
   return (
@@ -65,6 +65,7 @@ export default function Navbar() {
           >
             Home
           </Link>
+         
           <Link
             href="/products"
             onClick={() => setMenuOpen(false)}
@@ -72,7 +73,8 @@ export default function Navbar() {
           >
             Products
           </Link>
-          <Link
+         
+           <Link
             href="/about"
             onClick={() => setMenuOpen(false)}
             className="block px-4 py-2 text-black hover:text-pink-600"
@@ -89,6 +91,7 @@ export default function Navbar() {
               >
                 Login
               </Link>
+             
               <Link
                 href="/register"
                 onClick={() => setMenuOpen(false)}
@@ -105,7 +108,7 @@ export default function Navbar() {
                 aria-expanded={dropdownOpen}
                 aria-haspopup="true"
               >
-                <Image
+                  <Image
                   src="/images/profile2.png"
                   alt="Profile"
                   width={32}
@@ -116,6 +119,7 @@ export default function Navbar() {
               </button>
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-50">
+                 
                   <Link
                     href="/add-product"
                     onClick={() => {
@@ -126,6 +130,7 @@ export default function Navbar() {
                   >
                     Add Product
                   </Link>
+                 
                   <Link
                     href="/manage-products"
                     onClick={() => {

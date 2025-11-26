@@ -1,4 +1,4 @@
-// components/TestimonialsSection.jsx
+
 "use client";
 
 export default function TestimonialSection() {

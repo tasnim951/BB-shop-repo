@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Matte Velvet Lipstick",
+    "shortDescription": "Long-lasting matte lipstick with a smooth finish.",
+    "fullDescription": "This Matte Velvet Lipstick delivers intense pigmentation with a comfortable matte formula that lasts all day. Perfect for daily wear or special occasions.",
+    "price": 550,
+    "date": "2025-01-10",
+    "priority": "High",
+    "image":"https://images.unsplash.com/photo-1555050455-f96634b5cba6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Makeup"
+  },
+  {
+    "title": "Hydrating Skincare Serum",
+    "shortDescription": "Lightweight serum for glowing, hydrated skin.",
+    "fullDescription": "A deeply hydrating face serum enriched with hyaluronic acid to lock in moisture, brighten skin tone, and reduce dullness over time.",
+    "price": 1200,
+    "date": "2025-01-05",
+    "priority": "Medium",
+    "image":"https://images.unsplash.com/photo-1679394042786-5a287699d600?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Skincare"
+  },
+  {
+    "title": "Soft Cotton Scarf",
+    "shortDescription": "Stylish and comfortable cotton scarf.",
+    "fullDescription": "A premium cotton scarf designed for everyday wear. Soft, breathable, and versatile — perfect for both warm and cold seasons.",
+    "price": 350,
+    "date": "2025-01-09",
+    "priority": "Low",
+    "image": "https://images.unsplash.com/photo-1623832101940-647285e32a58?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Df",
+    "category": "Accessories"
+  },
+  {
+    "title": "Trendy Round Glasses",
+    "shortDescription": "Fashion-forward round-frame glasses.",
+    "fullDescription": "These trendy round glasses are made with lightweight metal frames and crystal-clear lenses, offering a stylish look for all outfits.",
+    "price": 900,
+    "date": "2025-01-07",
+    "priority": "High",
+    "image": "https://images.unsplash.com/photo-1581778571772-11f8c6af4103?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Accessories"
+  },
+  {
+    "title": "White Sneakers",
+    "shortDescription": "Comfortable and stylish everyday sneakers.",
+    "fullDescription": "These minimalist white sneakers are perfect for everyday use. Durable, comfortable, and easy to style with any outfit.",
+    "price": 1800,
+    "date": "2025-01-11",
+    "priority": "High",
+    "image": "https://images.unsplash.com/photo-1756707235708-01aa79b8bf51?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Df",
+    "category": "Fashion"
+  },
+  {
+    "title": "Gentle Face Wash",
+    "shortDescription": "Foaming face wash for clean, soft skin.",
+    "fullDescription": "A gentle, dermatologist-approved foaming face wash that removes dirt and oil without stripping natural moisture.",
+    "price": 450,
+    "date": "2025-01-03",
+    "priority": "Medium",
+    "image":"https://images.unsplash.com/photo-1677176430993-3115a2278b74?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D9",
+    "category": "Skincare"
+  }
+]

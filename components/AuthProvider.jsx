@@ -15,17 +15,18 @@ export default function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Subscribe to Firebase auth state changes
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    
+       const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
     });
 
-    // Cleanup subscription on unmount
+   
+
     return () => unsubscribe();
   }, []);
 
-  // Logout function
+ 
   const logout = async () => {
     try {
       await signOut(auth);
@@ -40,7 +41,7 @@ export default function AuthProvider({ children }) {
     logout,
   };
 
-  // Only render children when loading is done
+ 
   return (
     <AuthContext.Provider value={value}>
       {!loading ? children : <div>Loading...</div>}

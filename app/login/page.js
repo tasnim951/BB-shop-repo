@@ -24,20 +24,21 @@ export default function LoginPage() {
     setLoading(true);
     try {
       await signInWithPopup(auth, provider);
-      router.push("/"); // redirect after successful login
+      router.push("/"); 
     } catch (err) {
       setError(err.message);
     }
     setLoading(false);
   };
 
-  const handleEmailLogin = async (e) => {
-    e.preventDefault();
-    setError("");
+       const handleEmailLogin = async (e) => {
+        e.preventDefault();
+   
+        setError("");
     setLoading(true);
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      router.push("/"); // redirect after successful login
+      router.push("/"); 
     } catch (err) {
       setError(err.message);
     }

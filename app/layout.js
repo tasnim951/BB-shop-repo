@@ -11,7 +11,7 @@ const geistSans = Geist({
 
 export const metadata = {
   title: "Blush Bazaar",
-  description: "A pink-themed Next.js shop",
+  description: "A Next.js shop",
 };
 
 export default function RootLayout({ children }) {

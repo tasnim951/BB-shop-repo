@@ -33,7 +33,7 @@ const banners = [
 export default function BannerSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Slider shift in percentage (each slide is 100% width)
+
   const translateX = -currentIndex * 100;
 
   const nextSlide = () => {
@@ -65,7 +65,6 @@ export default function BannerSection() {
         ))}
       </div>
 
-      {/* Controls */}
       <button
         onClick={prevSlide}
         className="absolute top-1/2 left-4 -translate-y-1/2 bg-pink-700 hover:bg-pink-800 text-white rounded-full p-3 shadow-lg transition"
