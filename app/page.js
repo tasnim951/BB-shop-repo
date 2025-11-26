@@ -1,4 +1,5 @@
-
+import Hero from "../components/Hero";
+import CategoriesSection from "../components/CategoriesSection"
 
 
 export default function Home() {
@@ -6,7 +7,8 @@ export default function Home() {
     <>
     
     <main>
-      <h2>Welcome to BLUSH BAZAAR</h2>
+      <Hero/>
+      <CategoriesSection/>
     </main>
     </>
    
